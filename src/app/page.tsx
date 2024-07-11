@@ -11,7 +11,7 @@ import SocialAndFooterSection from "@/components/SocialAndFooterSection/SocialAn
 export default function Home() {
   return (
     <main>
-      <NavBar />
+      {/* <NavBar /> */}
       <HeroSection />
       <VideoSection videoId={VideoConstant.videoId} autoplay={VideoConstant.autoplay} controls={VideoConstant.control} />
       <FeaturesSection />
