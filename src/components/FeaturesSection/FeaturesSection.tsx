@@ -19,7 +19,7 @@ const FeaturesSection: React.FC = () => {
                             Your browser does not support the video tag.
                         </video>
                     </div>
-                    <div className="lg:w-1/2 mt-10 lg:mt-0 lg:ml-10 text-green-400">
+                    <div className="lg:w-1/2 mt-10 lg:mt-0 lg:ml-10 text-color">
                         <h2 className="text-3xl font-bold mb-6 text-center lg:text-left">KEY FEATURES</h2>
                         <ul className="list-disc pl-5 space-y-2">
                             <li>Simple mechanics. Unexpected consequences.</li>

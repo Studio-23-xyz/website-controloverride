@@ -6,16 +6,16 @@ import classes from './HeroSection.module.css';
 const HeroSection = () => {
   return (
     <section className="w-full flex items-center justify-center bg-black p-4 lg:h-screen md:h-2/3 sm:h-1/5">
-      <div className="text-center max-w-lg mx-auto">
+      <div className="text-center mx-auto">
         <Image
           src={banner.src}
           alt="Control Override Cover Glow"
-          width={600}
-          height={200}
+          width={1300}
+          height={100}
           priority
           className="mx-auto"
         />
-        <h3 className="text-green-400 text-xl md:text-3xl lg:text-4xl my-5">
+        <h3 className="text-color text-xl md:text-3xl lg:text-4xl my-5">
           PLAY AS A HACKER ON A MISSION TO TERMINATE A ROGUE AI
         </h3>
         <div className="flex justify-center space-x-4 mt-4">

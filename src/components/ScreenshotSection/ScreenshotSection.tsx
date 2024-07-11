@@ -34,7 +34,7 @@ const galleryImages: GalleryImage[] = [
 
 const ScreenshotSection = () => (
   <section id="screenshots" className="w-full min-h-screen flex flex-col items-center justify-center py-12">
-    <h2 className="text-2xl md:text-3xl font-semibold text-center text-green-300 mb-10">SCREENSHOTS</h2>
+    <h2 className="text-2xl md:text-3xl font-semibold text-center text-color mb-10">SCREENSHOTS</h2>
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 px-4">
       {galleryImages.map((image, index) => (
         <Link key={index} href={image.src} passHref>
