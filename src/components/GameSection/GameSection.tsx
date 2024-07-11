@@ -4,10 +4,10 @@ import Link from 'next/link';
 
 const GameSection: FC = () => {
   return (
-    <section className="flex flex-col items-center justify-center bg-[#0a0a0a]">
+    <section className="flex flex-col items-center justify-center">
       <div className="container mx-auto px-4">
         <div className="text-center">
-          <h2 className="text-2xl font-semibold my-4 text-white">PLAY THE GAME NOW</h2>
+          <h2 className="text-4xl lg:text-5xl font-semibold my-4 text-color">PLAY THE GAME NOW</h2>
         </div>
       </div>
       <div className="w-3/4 mx-auto">

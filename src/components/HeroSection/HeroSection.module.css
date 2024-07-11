@@ -1,0 +1,43 @@
+.buyIcon{
+    font-family: "Jura", Sans-serif;
+    font-weight: 600;
+    fill: #F9F9F9;
+    color: #F9F9F9;
+    background-color: #54B41F;
+    border-radius: 0px 0px 0px 0px;
+    transition: transform 0.3s ease-in-out;
+}
+
+@keyframes shake {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(10px);
+    }
+
+    80%{
+        transform: translateX(-10px);
+    }
+}
+
+.buyIcon:hover {
+    animation: shake 0.5s ease-in-out;
+}
+
+.pressKit{
+    font-family: "Jura", Sans-serif;
+    font-weight: 600;
+    fill: #54B41F;
+    color: #54B41F;
+    background-color: #202020;
+    border-radius: 0px 0px 0px 0px;
+}
+.pressKit:hover {
+    color: #FFFFFF;
+    background-color: #54B41F;
+    transform: scale(1.1);
+}

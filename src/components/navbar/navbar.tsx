@@ -12,7 +12,7 @@ type NavButtonProps = {
 const NavButton: React.FC<NavButtonProps> = ({ href, label, targetBlank = false, special = false }) => (
   <Link 
     href={href}
-    className={`p-2 transition-colors duration-300 rounded-lg ${special ? `bg-lime-500 hover:${classes.animateShake}` : 'bg-gray-800 text-lime-500 hover:bg-lime-500 hover:text-white'}`}
+    className={`${classes.buttonStyle} p-2 transition-colors duration-300 rounded-lg ${special ? `bg-lime-500 text-white hover:${classes.animateShake} ${classes.buyIcon}` : 'bg-gray-800 text-lime-500 hover:bg-lime-500 hover:text-white'}`}
     target={targetBlank ? "_blank" : "_self"}
     rel={targetBlank ? "noopener noreferrer" : undefined}
   >

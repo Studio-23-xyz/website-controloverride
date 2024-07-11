@@ -26,11 +26,15 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-    font-family: 'Jura', sans-serif;
+    font-family: 'Jura', sans-serif !important;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.text-color{
+  color: #67C71E;
 }

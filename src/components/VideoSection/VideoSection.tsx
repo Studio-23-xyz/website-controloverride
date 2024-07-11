@@ -13,7 +13,7 @@ const VideoSection: FC<VideoProps> = ({ videoId, autoplay, controls }) => {
             <div className={`container w-3/4`}>
                 <div className={classes.iframeContainer}>
                     <iframe
-                        className={`w-full aspect-video ${classes.iframeBase}`}
+                        className={`w-full aspect-video ${classes.iframeBase} h-80`}
                         src={`https://www.youtube.com/embed/${videoId}?autoplay=${autoplay}&controls=${controls}`}
                         frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

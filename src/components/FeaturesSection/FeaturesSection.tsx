@@ -1,4 +1,5 @@
 import React from 'react';
+import classes from './FeaturesSection.module.css';
 
 const FeaturesSection: React.FC = () => {
     return (
@@ -12,7 +13,7 @@ const FeaturesSection: React.FC = () => {
                             loop
                             muted
                             playsInline
-                            className="w-full h-auto"
+                            className={`w-full h-auto ${classes['neon-shadow']}`}
                             >
                             <source src="/videos/not-a-gif-no-mouse.mp4" type="video/mp4" />
                             Your browser does not support the video tag.

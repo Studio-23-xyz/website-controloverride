@@ -24,3 +24,33 @@
 .animateShake:hover {
     animation: shake 0.8s cubic-bezier(.36, .07, .19, .97) both;
 }
+
+.buttonStyle{
+    font-family: "Jura", Sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+}
+.buttonColor{
+    fill: #54B41F;
+    color: #54B41F;
+}
+
+@keyframes shake {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+
+    80% {
+        transform: translateY(-10px);
+    }
+}
+
+.buyIcon:hover {
+    animation: shake 0.5s ease-in-out;
+}

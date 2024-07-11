@@ -3,7 +3,7 @@ import { FaTwitter, FaInstagram, FaFacebook } from 'react-icons/fa';
 
 const SocialAndFooterSection = () => {
     return (
-        <section className="bg-[#0a0a0a] flex justify-center items-center">
+        <section className="flex justify-center items-center">
             <div className="container mx-auto px-4 text-white">
                 <div className="flex justify-center space-x-6 py-12">
                     <Link href="https://twitter.com/ControlOverride" passHref>
