@@ -10,7 +10,7 @@ const HeroSection = () => {
         <Image
           src={banner.src}
           alt="Control Override Cover Glow"
-          width={1300}
+          width={1100}
           height={100}
           priority
           className="mx-auto"
