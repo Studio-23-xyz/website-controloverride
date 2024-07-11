@@ -1,0 +1,26 @@
+@keyframes shake {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: translateY(-10px);
+    }
+
+    20%,
+    40%,
+    60%,
+    80% {
+        transform: translateY(10px);
+    }
+}
+
+.animateShake:hover {
+    animation: shake 0.8s cubic-bezier(.36, .07, .19, .97) both;
+}

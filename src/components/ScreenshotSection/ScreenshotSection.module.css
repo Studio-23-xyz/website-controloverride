@@ -1,0 +1,38 @@
+.galleryItem {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    display: block;
+}
+
+.imageContainer {
+    transition: transform 0.3s ease-in-out;
+}
+
+.galleryItem:hover .imageContainer {
+    transform: scale(1.1);
+}
+
+.neonEffect {
+    pointer-events: none;
+    border: 2px solid transparent;
+    box-shadow: 0 0 10px 3px rgba(0, 255, 0, 0.5), inset 0 0 10px 3px rgba(0, 255, 0, 0.5);
+    transition: all 0.3s ease-in-out;
+}
+
+.galleryItem:hover .neonEffect {
+    border-color: rgba(0, 255, 0, 0.75);
+    box-shadow: 0 0 20px 6px rgba(0, 255, 0, 0.75), inset 0 0 20px 6px rgba(0, 255, 0, 0.75);
+}
+
+.imageHoverOverlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 128, 0, 0.3);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.imageHoverOverlay:hover {
+    opacity: 1;
+}
