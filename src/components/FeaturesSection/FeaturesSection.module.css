@@ -1,3 +1,20 @@
 .neon-shadow {
     box-shadow: 0 0 10px 2px rgba(0, 255, 0, 0.7), 0 0 30px 10px rgba(0, 0, 255, 0.5);
 }
+
+.customTextDesign{
+    color: #2BD30A;
+    font-family: "Jura", Sans-serif;
+    font-weight: 600;
+    padding: 20px 0;
+    margin: 0;
+    line-height: 1;
+    clear: both;
+    --widgets-spacing: 20px;
+    text-align: left;
+    letter-spacing: -0.02em;
+}
+
+.textSize{
+    font-size: 1.7rem;
+}
