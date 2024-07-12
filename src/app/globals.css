@@ -38,3 +38,6 @@ body {
 .text-color{
   color: #67C71E;
 }
+.neon-bg {
+  box-shadow: 0 0 25px 5px rgba(0, 255, 0, 0.7), 0 0 30px 10px rgba(0, 0, 255, 0.5);
+}
