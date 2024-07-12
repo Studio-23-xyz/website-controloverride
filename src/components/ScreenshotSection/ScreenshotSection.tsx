@@ -98,7 +98,7 @@ const ScreenshotSection = () => {
       </div>
       {isModalOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
-          <div className="bg-white neon-bg p-8 rounded-lg shadow-lg relative max-w-3xl w-full">
+          <div className={`${styles.modalBg} neon-bg p-8 rounded-lg shadow-lg relative max-w-3xl w-full`}>
             <button onClick={closeModal} className="absolute top-2 right-2 text-2xl text-black"><AiOutlineClose /></button>
             <div className="relative overflow-hidden">
               <Image src={galleryImages[selectedImageIndex].src} style={{ transform: `scale(${zoomLevel})` }} alt={galleryImages[selectedImageIndex].alt} width={800} height={480} layout="intrinsic" className="rounded-lg" />
