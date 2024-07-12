@@ -27,7 +27,17 @@ const config: Config = {
       margin: {
         'ml-10': '1rem',
         'ml-0': '0',
-      }
+      },
+      colors: {
+        facebook: '#1877F2',
+        twitter: '#1DA1F2',
+        pinterest: '#E60023',
+        download: '#4a5568', // a neutral gray, adjust as needed
+      },
+      spacing: {
+      'bottonMiddle': '50%',
+      'right8%': '4.2rem',
+      },
     },
   },
   plugins: [],

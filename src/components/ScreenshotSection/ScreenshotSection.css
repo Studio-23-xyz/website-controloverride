@@ -1,0 +1,12 @@
+.modalContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navigationButtons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+}
