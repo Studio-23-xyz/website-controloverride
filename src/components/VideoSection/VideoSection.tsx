@@ -9,7 +9,7 @@ export interface VideoProps {
 
 const VideoSection: FC<VideoProps> = ({ videoId, autoplay, controls }) => {
     return (
-        <section className="w-full flex items-center justify-center md:h-screen sm:h-1/5 pb-10 md:pb-0">
+        <section className="w-full flex items-center justify-center md:h-screen sm:h-1/5 pb-10 md:pb-0 bg-black">
             <div className={`container w-full px-2 lg:w-3/4`}>
                 <div className={classes.iframeContainer}>
                     <iframe

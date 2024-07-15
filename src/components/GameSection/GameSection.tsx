@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const GameSection: FC = () => {
   return (
-    <section className="flex flex-col items-center justify-center">
+    <section className="flex flex-col items-center justify-center bg-black">
       <div className="container mx-auto px-4">
         <div className="text-center">
           <h2 className="text-4xl lg:text-5xl font-semibold my-4 text-color">PLAY THE GAME NOW</h2>
